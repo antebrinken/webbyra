@@ -1,3 +1,33 @@
+body{
+  padding: 0px;
+  margin: 0px;
+}
+.class {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.knapp {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff; /* Blå färg */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+header
+
+.knapp:hover {
+  background-color: #0056b3; /* Mörkare blå vid hover */
+}
+
+.container {
+  scroll-behavior: smooth;
 *{
   margin: 0;
   padding: 0;
@@ -21,8 +51,43 @@
 font-family: "Permanent Marker", "serif";
 }
 
+.video-background{
+  padding-bottom: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.text-box{
+  width: 50vw;
 #contactContainer{
   display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.main_info{
+  background-color: #1C1C1C;
+  height: 80vh;
+  width: 100vw;
+}
+
+.heading {
+  color: white;
+}
+.intro {
+  background-color: #1C1C1C;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#text {
+  font-size: 24px;
+  color: white;
+  width: 600px;
+  text-align: center;
   align-items: center;
   flex-direction: column;
   height: 70vh;
@@ -55,6 +120,16 @@ font-family: "Permanent Marker", "serif";
   padding: 5px;
 }
 
+#header {
+  font-size: 36px;
+  color: white;
+}
+
+#img {
+  height: 60vh;
+  width: 20vw;
+  border-radius: 80px 35px 150px 15px;
+}
 .formButton {
   height: 2rem;
   width: 4rem;
