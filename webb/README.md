@@ -23,3 +23,9 @@ När man är klar med en feature-branch så gör vi en PR som ska mergas till de
    Vi ska alltid göra pull requests innan vi mergar från en feature-branch till developer branchen.
    Försök att hålla sig till mindre Pull Requests för att inte merga för stora commits.
    Man mergar inte sin egen PR, det gör någon annan som först granskar.
+
+Docs: För dokumentation för hur vi arbetar.
+Feat: För att lägga till ny funktionalitet.
+Style: För kodändringar som INTE påverkar funktionalitet.
+Fix: För att åtgärda en bug eller ett fel i koden.
+Test: För att lägga till eller ändra tester.
