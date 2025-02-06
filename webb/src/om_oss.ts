@@ -12,7 +12,7 @@ if (about_us) {
     </video>
     <div class="video-text">
     <h2>Din framtid börjar här</h2>
-    <p>Vi skapar moderna och responsiva webbplatser för alla branscher.</p>
+    <p>Vi skapar moderna och responsiva webbplatser för alla tech branscher.</p>
     </div>
     </div> 
         <section class="intro">
