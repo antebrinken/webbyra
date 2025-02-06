@@ -148,3 +148,137 @@ font-family: "Permanent Marker", "serif";
   transform: translate(-50%, -50%);
   object-fit: cover;
 }
+
+body{
+  padding: 0px;
+  margin: 0px;
+  background-color: #1C1C1C;
+
+}
+.class {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.knapp {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+
+header
+
+.knapp:hover {
+  background-color: #0056b3; /* Mörkare blå vid hover */
+}
+
+.container {
+  scroll-behavior: smooth;
+}
+
+.video-background{
+  padding-bottom: 0;
+  margin: 0;
+  width: 100vw;
+}
+
+.text-box{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-left: 100px;
+  padding-top: 100px;
+}
+
+.text-box2{
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 100px;
+  padding-top: 100px;
+}
+.style-box{
+  width: 40vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+  padding-right: 100px;
+  background-color: #8064AD;
+  border-radius: 50% 20% 30% 50%;
+}
+
+.main_info{
+  background-color: #1C1C1C;
+  height: 80vh;
+  width: 100vw;
+}
+
+.heading {
+  color: white;
+}
+.intro {
+  background-color: #1C1C1C;
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+}
+
+#text {
+  font-size: 18px;
+  color: white;
+  width: 450px;
+  text-align: center;
+}
+
+#header {
+  font-size: 36px;
+  color: white;
+}
+
+#img {
+  height: 60vh;
+  width: 25vw;
+  border-radius: 80px 35px 150px 15px;
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.videoBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen {
+  
+}
