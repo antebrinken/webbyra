@@ -206,6 +206,7 @@ button:focus-visible {
 }
 
 * {
+* {
   margin: 0;
   padding: 0;
   scroll-behavior: smooth;
@@ -213,26 +214,32 @@ button:focus-visible {
 
 #formBody {
   background-color: #1c1c1c;
+  background-color: #1c1c1c;
 }
 
+#formHeader {
 #formHeader {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 30vh;
   color: #fcfcfc;
+  color: #fcfcfc;
 }
 
 .h1FormHeader {
   rotate: -5deg;
   font-family: "Permanent Marker", "serif";
+  font-family: "Permanent Marker", "serif";
 }
 
+#contactContainer {
 #contactContainer {
   display: flex;
   align-items: center;
   flex-direction: column;
   height: 70vh;
+  color: #fcfcfc;
   color: #fcfcfc;
   font-size: 12px;
 }
@@ -253,10 +260,12 @@ button:focus-visible {
   margin-bottom: 1rem;
   margin-top: 4px;
   border: solid #b5a5cf 2px;
+  border: solid #b5a5cf 2px;
   border-radius: 45px;
   padding: 5px;
 }
 
+.textArea {
 .textArea {
   border-radius: 15px;
   padding: 5px;
@@ -270,9 +279,12 @@ button:focus-visible {
   cursor: pointer;
   background-color: #8064ad;
   color: #fcfcfc;
+  background-color: #8064ad;
+  color: #fcfcfc;
 }
 
 .formButton:hover {
+  background-color: #fcfcfc;
   background-color: #fcfcfc;
   color: black;
 }
@@ -290,12 +302,14 @@ button:focus-visible {
   border-radius: 8px;
   padding: 1.5rem;
   box-shadow: 0 2px 4px color #8064ad;
+  box-shadow: 0 2px 4px color #8064ad;
   transition: transform 0.3s ease;
   border: 2px solid #e0e0e0;
 }
 
 .project-card:hover {
   transform: translateY(-5px);
+  border-color: #8064ad;
   border-color: #8064ad;
   box-shadow: 0 5px 15px rgba(128, 100, 173, 0.2);
 }
@@ -308,6 +322,7 @@ button:focus-visible {
 }
 
 .project-card h3 {
+  color: black;
   color: black;
   margin-bottom: 0.5rem;
 }
@@ -331,6 +346,7 @@ button:focus-visible {
   border-radius: 15px;
   font-size: 0.8rem;
   color: #333;
+  border: 2px solid #b5a5cf;
   border: 2px solid #b5a5cf;
 }
 
@@ -495,4 +511,17 @@ header .knapp:hover {
 }
 
 @media screen {
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
 }
