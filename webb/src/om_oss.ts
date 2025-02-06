@@ -5,12 +5,21 @@ const about_us = document.getElementById("app");
 if (about_us){
     const html = `
     <div class="container">
+    <div class="videoBox">
+    <video autoplay muted loop playsinline class="video-background">
+    <source src="media/office.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+    </video>
+    <div class="video-text">
+    <h2>Din framtid börjar här</h2>
+    <p>Vi skapar moderna och responsiva webbplatser för alla branscher.</p>
+    </div>
+    </div> 
         <section class="intro">
             <div class="text-box">
             <img src="media/art.jpg" alt="art" id="img">
             </div>
-            <div class="text-box">
-
+            <div class="text-box2">
             <h1 id="header">Om oss</h1>
             <p id="text">
             <b>Välkommen till Horizon Web Solutions</b> – din pålitliga partner inom webbdesign och digitala lösningar. Vi är en kreativ webbyrå som hjälper företag att skapa och utveckla sina online-närvaro genom skräddarsydda och användarvänliga webbplatser.
@@ -21,10 +30,6 @@ if (about_us){
             </div>
         </section>
 
-            <video autoplay muted loop playsinline class="video-background">
-            <source src="media/office.mp4" type="video/mp4">
-            Your browser does not support the video tag.
-            </video>  
 
         <section class="main_info">
         </section>
@@ -32,5 +37,7 @@ if (about_us){
     `
     about_us.innerHTML = html;
 }
+
+
 
 

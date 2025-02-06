@@ -38,10 +38,22 @@ header
 
 .text-box{
   width: 50vw;
+  height: 80vh;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-left: 100px;
+}
+
+.text-box2{
+  width: 50vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-right: 100px;
 }
 
 .main_info{
@@ -75,6 +87,28 @@ header
 
 #img {
   height: 60vh;
-  width: 20vw;
+  width: 25vw;
   border-radius: 80px 35px 150px 15px;
+}
+
+.video-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -90%);
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.videoBox{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
