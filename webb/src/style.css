@@ -1,3 +1,74 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#formBody {
+  background-color: #1C1C1C;
+}
+
+#formHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  color: #FCFCFC;
+}
+
+.h1FormHeader {
+  rotate: -5deg;
+font-family: "Permanent Marker", "serif";
+}
+
+#contactContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  color: #FCFCFC;
+  font-size: 12px;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.formLabel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+
+.formInput {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 4px;
+  border: solid #B5A5CF 2px;
+  border-radius: 45px;
+  padding: 5px;
+}
+
+.textArea{
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.formButton {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 4px;
+  border: solid black 1px;
+  cursor: pointer;
+  background-color: #8064AD;
+  color: #FCFCFC;
+}
+
+.formButton:hover {
+  background-color: #FCFCFC;
+  color: black;
+}
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
