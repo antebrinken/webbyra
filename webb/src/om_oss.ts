@@ -1,9 +1,9 @@
-import './style.css'
+import "./style.css";
 
 const about_us = document.getElementById("app");
 
-if (about_us){
-    const html = `
+if (about_us) {
+  const html = `
     <div class="container">
     <div class="videoBox">
     <video autoplay muted loop playsinline class="video-background">
@@ -20,6 +20,7 @@ if (about_us){
             <img src="media/art.jpg" alt="art" id="img">
             </div>
             <div class="text-box2">
+            <div class="style-box">
             <h1 id="header">Om oss</h1>
             <p id="text">
             <b>Välkommen till Horizon Web Solutions</b> – din pålitliga partner inom webbdesign och digitala lösningar. Vi är en kreativ webbyrå som hjälper företag att skapa och utveckla sina online-närvaro genom skräddarsydda och användarvänliga webbplatser.
@@ -28,16 +29,13 @@ if (about_us){
             På gitala upplevelser som gör intryck.
             </p>
             </div>
+            </div>
         </section>
 
 
         <section class="main_info">
         </section>
     </div> 
-    `
-    about_us.innerHTML = html;
+    `;
+  about_us.innerHTML = html;
 }
-
-
-
-
