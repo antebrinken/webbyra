@@ -1,3 +1,154 @@
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+#formBody {
+  background-color: #1C1C1C;
+}
+
+#formHeader{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  color: #FCFCFC;
+}
+
+.h1FormHeader {
+  rotate: -5deg;
+font-family: "Permanent Marker", "serif";
+}
+
+#contactContainer{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 70vh;
+  color: #FCFCFC;
+  font-size: 12px;
+}
+
+#contactForm {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.formLabel {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-left: 10px;
+}
+
+.formInput {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 1rem;
+  margin-top: 4px;
+  border: solid #B5A5CF 2px;
+  border-radius: 45px;
+  padding: 5px;
+}
+
+.textArea{
+  border-radius: 15px;
+  padding: 5px;
+}
+
+.formButton {
+  height: 2rem;
+  width: 4rem;
+  border-radius: 4px;
+  border: solid black 1px;
+  cursor: pointer;
+  background-color: #8064AD;
+  color: #FCFCFC;
+}
+
+.formButton:hover {
+  background-color: #FCFCFC;
+  color: black;
+}
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.project-card {
+  background: #ffffff;
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: 0 2px 4px color #8064AD;
+  transition: transform 0.3s ease;
+  border: 2px solid #e0e0e0;
+}
+
+.project-card:hover {
+  transform: translateY(-5px);
+  border-color: #8064AD;
+  box-shadow: 0 5px 15px rgba(128, 100, 173, 0.2);
+}
+
+.project-card img {
+  width: 100%;
+  height: 150px;
+  object-fit: contain;
+  margin-bottom: 1rem;
+}
+
+.project-card h3 {
+  color: black; 
+  margin-bottom: 0.5rem;
+}
+
+.collaboration-period {
+  color: #666;
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.tech-tag {
+  background: #f0f0f0;
+  padding: 0.25rem 0.75rem;
+  border-radius: 15px;
+  font-size: 0.8rem;
+  color: #333;
+  border: 2px solid #B5A5CF
+}
+
+.video-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.video-background video {
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+}
+
 body{
   padding: 0px;
   margin: 0px;
