@@ -6,7 +6,7 @@ if (about_us) {
   const html = `
     <div class="container">
     <div class="videoBox">
-    <video autoplay muted loop playsinline class="video-background">
+    <video autoplay muted loop playsinline class="video-back">
     <source src="media/office.mp4" type="video/mp4">
     Your browser does not support the video tag.
     </video>
