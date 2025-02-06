@@ -26,8 +26,6 @@ type SubjectObject = {
 //dropdown
 const formSel = document.getElementById("subject") as HTMLSelectElement;
 const topicSel = document.getElementById('topic') as HTMLSelectElement;
-const topicLabel = document.getElementById("topicLabel") as HTMLLabelElement
-
 
   // Lägga till alternativ för ämnen i "subject" dropdown
 Object.keys(subjectObject).forEach(subject => {
