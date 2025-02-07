@@ -1,3 +1,39 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #121212;
+  padding: 20px 60px;
+  color: white;
+}
+
+.logo {
+  max-width: 150px;
+  object-fit: cover;
+}
+
+.nav-meny ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+} 
+.nav-meny ul:hover {
+  border-bottom: white;
+  border-color: blueviolet;
+  border-radius: 20px;
+}
+footer {
+  background-color:#121212;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+
+}
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
